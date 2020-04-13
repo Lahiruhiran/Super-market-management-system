@@ -1,3 +1,6 @@
+<?php
+session_start()
+?>
 
 <!DOCTYPE html>
 <html>
@@ -239,6 +242,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</thead>
 					<tr class="rem1">
 						<td class="invert">1</td>
+						
+							
+						
 						<td class="invert-image"><a href="single.php"><img src="images/1.png" alt=" " class="img-responsive" /></a></td>
 						<td class="invert">
 							 <div class="quantity"> 
@@ -249,7 +255,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</div>
 							</div>
 						</td>
-						<td class="invert">Tata Salt</td>
+						
+						<td class="invert"></td>
+					
+						
+						
 						
 						<td class="invert">$290.00</td>
 						<td class="invert">
@@ -348,11 +358,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li>Product3 <i>-</i> <span>$29.00 </span></li>
 						<li>Total Service Charges <i>-</i> <span>$15.00</span></li>
 						<li>Total <i>-</i> <span>$84.00</span></li>
+						<a href="cart.php"><input type ="submit" value ="place order" name="submit" >
 					</ul>
 				</div>
+				
 				<div class="checkout-right-basket">
-					<a href="single.php"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>Continue Shopping</a>
+					<a href="home.php"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>Continue Shopping</a>
 				</div>
+				
 				<div class="clearfix"> </div>
 			</div>
 		</div>

@@ -1,7 +1,8 @@
 
+
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en">
+  <head>
 <title>Super Market an Ecommerce Online Shopping Category </title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -65,7 +66,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 		<div class="w3ls_logo_products_left1">
 				<ul class="phone_email">
-					<li><i class="fa fa-phone" aria-hidden="true"></i>Order online or call us : (+071) 7 584 767</li>
+					<li><i class="fa fa-phone" aria-hidden="true"></i>Order online or call us : (+071) 7 847 767</li>
 					
 				</ul>
 			</div>
@@ -210,161 +211,169 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 		
 <!-- //navigation -->
-<!-- breadcrumbs -->
-	<div class="breadcrumbs">
-		<div class="container">
-			<ol class="breadcrumb breadcrumb1 animated wow slideInLeft" data-wow-delay=".5s">
-				<li><a href="index.php"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
-				<li class="active">Household</li>
-			</ol>
-		</div>
-	</div>
-<!-- //breadcrumbs -->
-<!--- household --->
-	<div class="products">
-		<div class="container">
-			<div class="col-md-4 products-left">
-				<div class="categories">
-					<h2>Categories</h2>
-					<ul class="cate">
-						<li><a href="products.php"><i class="fa fa-arrow-right" aria-hidden="true"></i>Fruits And Vegetables</a></li>
-							<ul>
-								<li><a href="products.php"><i class="fa fa-arrow-right" aria-hidden="true"></i>Cuts & Sprouts</a></li>
-								<li><a href="products.php"><i class="fa fa-arrow-right" aria-hidden="true"></i>Flowers</a></li>
-								<li><a href="products.php"><i class="fa fa-arrow-right" aria-hidden="true"></i>Fresh Herbs & Seasonings</a></li>
-								<li><a href="products.php"><i class="fa fa-arrow-right" aria-hidden="true"></i>Fresh Vegetables</a> </li>
-								<li><a href="products.php"><i class="fa fa-arrow-right" aria-hidden="true"></i>International Vegetables</a> </li>
-								<li><a href="products.php"><i class="fa fa-arrow-right" aria-hidden="true"></i>Organic Fruits & Vegetables</a></li>
-							</ul>
-						<li><a href="products.php"><i class="fa fa-arrow-right" aria-hidden="true"></i>Grocery & Staples</a></li>
-							<ul>
-								<li><a href="products.php"><i class="fa fa-arrow-right" aria-hidden="true"></i>Dals & Pulses</a> </li>
-								<li><a href="products.php"><i class="fa fa-arrow-right" aria-hidden="true"></i>Dry Fruits</a> </li>
-								<li><a href="products.php"><i class="fa fa-arrow-right" aria-hidden="true"></i>Edible Oils & Ghee</a> </li>
-								<li><a href="products.php"><i class="fa fa-arrow-right" aria-hidden="true"></i>Flours & Sooji</a> </li>
-								<li><a href="products.php"><i class="fa fa-arrow-right" aria-hidden="true"></i>Masalas & Spices</a> </li>
-								<li><a href="products.php"><i class="fa fa-arrow-right" aria-hidden="true"></i>Organic Staples</a> </li>
-								<li><a href="products.php"><i class="fa fa-arrow-right" aria-hidden="true"></i>Rice & Rice Products</a> </li>
-								<li><a href="products.php"><i class="fa fa-arrow-right" aria-hidden="true"></i>Salt, Sugar & Jaggery</a></li>
-							</ul>
-						<li><a href="products.php"><i class="fa fa-arrow-right" aria-hidden="true"></i>PersonalCare</a></li>
-							<ul>
-								<li><a href="products.php"><i class="fa fa-arrow-right" aria-hidden="true"></i>Baby Care</a> </li>
-								<li><a href="products.php"><i class="fa fa-arrow-right" aria-hidden="true"></i>Cosmetics</a> </li>
-								<li><a href="products.php"><i class="fa fa-arrow-right" aria-hidden="true"></i>Deos & Perfumes</a> </li>
-								<li><a href="products.php"><i class="fa fa-arrow-right" aria-hidden="true"></i>Skin Care</a> </li>
-								<li><a href="products.php"><i class="fa fa-arrow-right" aria-hidden="true"></i>Sanitary Needs</a> </li>
-								<li><a href="products.php"><i class="fa fa-arrow-right" aria-hidden="true"></i>Oral Care</a> </li>
-								<li><a href="products.php"><i class="fa fa-arrow-right" aria-hidden="true"></i>Personal Hygiene</a> </li>
-								<li><a href="products.php"><i class="fa fa-arrow-right" aria-hidden="true"></i>Shaving Needs</a></li>
-							</ul>
-					</ul>
-				</div>																																												
-			</div>
-			<div class="col-md-8 products-right">
-				<div class="products-right-grid">
-					<div class="products-right-grids">
-						<div class="sorting">
-							<select id="country" onchange="change_country(this.value)" class="frm-field required sect">
-								<option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Default sorting</option>
-								<option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Sort by popularity</option> 
-								<option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Sort by average rating</option>					
-								<option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Sort by price</option>								
-							</select>
-						</div>
-						<div class="sorting-left">
-							<select id="country1" onchange="change_country(this.value)" class="frm-field required sect">
-								<option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Item on page 9</option>
-								<option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Item on page 18</option> 
-								<option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Item on page 32</option>					
-								<option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>All</option>								
-							</select>
-						</div>
-						<div class="clearfix"> </div>
+
+    <div class="hero-wrap hero-bread" style="background-image: url('images/bg_1.jpg');">
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center">
+          <div class="col-md-9 ftco-animate text-center">
+          	<p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Checkout</span></p>
+            <h1 class="mb-0 bread">Checkout</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-7 ftco-animate">
+						<form action="#" class="billing-form">
+							<h3 class="mb-4 billing-heading">Billing Details</h3>
+	          	<div class="row align-items-end">
+	          		<div class="col-md-6">
+	                <div class="form-group">
+	                	<label for="firstname">Firt Name</label>
+	                  <input type="text" class="form-control" placeholder="">
+	                </div>
+	              </div>
+	              <div class="col-md-6">
+	                <div class="form-group">
+	                	<label for="lastname">Last Name</label>
+	                  <input type="text" class="form-control" placeholder="">
+	                </div>
+                </div>
+                <div class="w-100"></div>
+		            <div class="col-md-12">
+		            	<div class="form-group">
+		            		<label for="country">State / Country</label>
+		            		<div class="select-wrap">
+		                  <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+		                  <select name="" id="" class="form-control">
+		                  	<option value="">France</option>
+		                    <option value="">Italy</option>
+		                    <option value="">Philippines</option>
+		                    <option value="">South Korea</option>
+		                    <option value="">Hongkong</option>
+		                    <option value="">Japan</option>
+		                  </select>
+		                </div>
+		            	</div>
+		            </div>
+		            <div class="w-100"></div>
+		            <div class="col-md-6">
+		            	<div class="form-group">
+	                	<label for="streetaddress">Street Address</label>
+	                  <input type="text" class="form-control" placeholder="House number and street name">
+	                </div>
+		            </div>
+		            <div class="col-md-6">
+		            	<div class="form-group">
+	                  <input type="text" class="form-control" placeholder="Appartment, suite, unit etc: (optional)">
+	                </div>
+		            </div>
+		            <div class="w-100"></div>
+		            <div class="col-md-6">
+		            	<div class="form-group">
+	                	<label for="towncity">Town / City</label>
+	                  <input type="text" class="form-control" placeholder="">
+	                </div>
+		            </div>
+		            <div class="col-md-6">
+		            	<div class="form-group">
+		            		<label for="postcodezip">Postcode / ZIP *</label>
+	                  <input type="text" class="form-control" placeholder="">
+	                </div>
+		            </div>
+		            <div class="w-100"></div>
+		            <div class="col-md-6">
+	                <div class="form-group">
+	                	<label for="phone">Phone</label>
+	                  <input type="text" class="form-control" placeholder="">
+	                </div>
+	              </div>
+	              <div class="col-md-6">
+	                <div class="form-group">
+	                	<label for="emailaddress">Email Address</label>
+	                  <input type="text" class="form-control" placeholder="">
+	                </div>
+                </div>
+                <div class="w-100"></div>
+                <div class="col-md-12">
+                	<div class="form-group mt-4">
+										<div class="radio">
+										  <label class="mr-3"><input type="radio" name="optradio"> Create an Account? </label>
+										  <label><input type="radio" name="optradio"> Ship to different address</label>
+										</div>
+									</div>
+                </div>
+	            </div>
+	          </form><!-- END -->
 					</div>
-				</div>
-				<div class="agile_top_brands_grids">
-				<?php
-										$con = mysqli_connect("localhost","root","");
-										mysqli_select_db($con,"nagarik_bazar");
-										
-										$query ="SELECT * FROM products where productcategory_id= 9 LIMIT 6";
-										$queryfire = mysqli_query($con, $query);
-										$num = mysqli_num_rows($queryfire);
-										
-										if($num > 0 )
-										{
-											while($products = mysqli_fetch_assoc($queryfire))
-										{
-											
-										?>
-					<div class="col-md-4 top_brand_left">
-						<div class="hover14 column">
-							<div class="agile_top_brand_left_grid">
-								<div class="agile_top_brand_left_grid_pos">
-									<img src="images/offer.png" alt=" " class="img-responsive">
+					<div class="col-xl-5">
+	          <div class="row mt-5 pt-3">
+	          	<div class="col-md-12 d-flex mb-5">
+	          		<div class="cart-detail cart-total p-3 p-md-4">
+	          			<h3 class="billing-heading mb-4">Cart Total</h3>
+	          			<p class="d-flex">
+		    						<span>Subtotal</span>
+		    						<span>$20.60</span>
+		    					</p>
+		    					<p class="d-flex">
+		    						<span>Delivery</span>
+		    						<span>$0.00</span>
+		    					</p>
+		    					<p class="d-flex">
+		    						<span>Discount</span>
+		    						<span>$3.00</span>
+		    					</p>
+		    					<hr>
+		    					<p class="d-flex total-price">
+		    						<span>Total</span>
+		    						<span>$17.60</span>
+		    					</p>
 								</div>
-								<div class="agile_top_brand_left_grid1">
-									<figure>
-										<div class="snipcart-item block">
-											<div class="snipcart-thumb">
-												<a href="single.php"><img title=" " alt=" " src="<?php echo $products['Image'];?>"></a>		
-												<p><?php echo $products['name'];?></p>
-												<h4>$<?php echo $products['price']*0.1;?> <span>$<?php echo $products['price'];?></span></h4>
-											</div>
-											<div class="snipcart-details top_brand_home_details">
-												<form action="#" method="post">
-													<fieldset>
-														<input type="hidden" name="cmd" value="_cart">
-														<input type="hidden" name="add" value="1">
-														<input type="hidden" name="business" value=" ">
-														<input type="hidden" name="item_name" value="Fortune Sunflower Oil">
-														<input type="hidden" name="amount" value="35.99">
-														<input type="hidden" name="discount_amount" value="1.00">
-														<input type="hidden" name="currency_code" value="USD">
-														<input type="hidden" name="return" value=" ">
-														<input type="hidden" name="cancel_return" value=" ">
-														<input type="submit" name="submit" value="Add to cart" class="button">
-													</fieldset>
-												</form>
+	          	</div>
+	          	<div class="col-md-12">
+	          		<div class="cart-detail p-3 p-md-4">
+	          			<h3 class="billing-heading mb-4">Payment Method</h3>
+									<div class="form-group">
+										<div class="col-md-12">
+											<div class="radio">
+											   <label><input type="radio" name="optradio" class="mr-2"> Direct Bank Tranfer</label>
 											</div>
 										</div>
-									</figure>
+									</div>
+									<div class="form-group">
+										<div class="col-md-12">
+											<div class="radio">
+											   <label><input type="radio" name="optradio" class="mr-2"> Check Payment</label>
+											</div>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="col-md-12">
+											<div class="radio">
+											   <label><input type="radio" name="optradio" class="mr-2"> Paypal</label>
+											</div>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="col-md-12">
+											<div class="checkbox">
+											   <label><input type="checkbox" value="" class="mr-2"> I have read and accept the terms and conditions</label>
+											</div>
+										</div>
+									</div>
+									<p><a href="#"class="btn btn-primary py-3 px-4">Place an order</a></p>
 								</div>
-							</div>
-						</div>
-					</div>
-								<?php
-										}}
-										?>
-					
-						<div class="clearfix"> </div>
-				</div>
-				<nav class="numbering">
-					<ul class="pagination paging">
-						<li>
-							<a href="#" aria-label="Previous">
-								<span aria-hidden="true">&laquo;</span>
-							</a>
-						</li>
-						<li class="active"><a href="#">1<span class="sr-only">(current)</span></a></li>
-						<li><a href="#">2</a></li>
-						<li><a href="#">3</a></li>
-						<li><a href="#">4</a></li>
-						<li><a href="#">5</a></li>
-						<li>
-							<a href="#" aria-label="Next">
-							<span aria-hidden="true">&raquo;</span>
-							</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-<!--- household --->
-<!-- //footer -->
+	          	</div>
+	          </div>
+          </div> <!-- .col-md-8 -->
+        </div>
+      </div>
+    </section> <!-- .section -->
+
+		<!-- //footer -->
 	<div class="footer">
 		<div class="container">
 			<div class="w3_footer_grids">

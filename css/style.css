@@ -1020,6 +1020,11 @@ a.w3_agile_vimeo:hover{
     border: 2px solid #EDEDED;
     background: #FFF;
 }
+input[type="radio"],
+input[type="checkbox"] {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0; }
 .checkbox input + i:after,.radio input + i:after {
     position: absolute;
     opacity: 0;
@@ -1036,6 +1041,16 @@ a.w3_agile_vimeo:hover{
     position: absolute;
     left: -9999px;
 }
+.btn-group-toggle > .btn,
+.btn-group-toggle > .btn-group > .btn {
+  margin-bottom: 0; }
+  .btn-group-toggle > .btn input[type="radio"],
+  .btn-group-toggle > .btn input[type="checkbox"],
+  .btn-group-toggle > .btn-group > .btn input[type="radio"],
+  .btn-group-toggle > .btn-group > .btn input[type="checkbox"] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    pointer-events: none; }
 .checkbox input + i:after {
     content: '';
     background: url("../images/check.png") no-repeat 1px 2px;
